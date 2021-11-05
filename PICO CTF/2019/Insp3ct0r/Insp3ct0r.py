@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pwn import *
 import requests
 import re
