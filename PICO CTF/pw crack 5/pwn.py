@@ -24,7 +24,7 @@ def hash_pw(pw_str):
 
 
 def level_5_pw_check():
-    with open("dictionary.txt", "r") as file:
+    with open("dictionary.txt", "r") as file:            ## Changed from here
         for pw in file:
             pw = pw.strip()
             user_pw_hash = hash_pw(pw)
