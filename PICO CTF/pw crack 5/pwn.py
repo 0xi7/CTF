@@ -35,7 +35,7 @@ def level_5_pw_check():
                 print("The correct password is = " + pw)
                 return
         # print("That password is incorrect")
-    file.close()
+    file.close()                                            ## Changes finished here
 
 
 level_5_pw_check()
